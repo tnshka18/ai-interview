@@ -188,3 +188,6 @@ npm run seed
 | FFmpeg merge | 🔜 Simulated | Enqueue to SQS → Lambda |
 | Deepgram transcription | 🔜 Wiring only | Add DEEPGRAM_API_KEY |
 | AI scoring | 🔜 Stubbed | Connect LLM evaluator |
+
+## Deployment link:
+https://ai-interview-1-fluy.onrender.com/
