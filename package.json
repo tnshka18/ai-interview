@@ -1,0 +1,16 @@
+{
+  "name": "interview-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all":  "npm i && cd backend && npm i && cd ../frontend && npm i",
+    "dev":          "concurrently --names \"API,UI\" --prefix-colors \"cyan,magenta\" \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "dev:backend":  "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "seed":         "cd backend && npm run seed",
+    "build":        "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
